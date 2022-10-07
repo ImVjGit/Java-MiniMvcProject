@@ -45,11 +45,6 @@ public class CreateServlet extends HttpServlet {
 		PrintWriter pw =response.getWriter();
 		UserCreate c = new UserCreate(name, pass, cpass, age, email);
 		System.out.println("Layer 1 : Create Servlet : ");
-		System.out.println(name);
-		System.out.println(pass);
-		System.out.println(cpass);
-		System.out.println(age);
-		System.out.println(email);
 		if(c.Createuser())
 		{
 			System.out.println("true");

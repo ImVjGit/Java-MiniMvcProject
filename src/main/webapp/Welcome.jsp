@@ -40,7 +40,7 @@
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a href="index.html" class=" btn btn-warning rounded" method ="post">Logout<a>
+                        <a href="index.jsp" class=" btn btn-warning rounded" method ="post">Logout<a>
                     </li>
                 </ul>
             </div>
